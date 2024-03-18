@@ -1,0 +1,35 @@
+# config.yaml
+
+# Monitor IP address
+monitor_ip: "0.0.0.0"
+
+# Monitor port
+monitor_port: 514
+
+# Path for run logs
+run_log_path: "Logs/Run"
+
+# Path for syslog events
+syslog_path: "Logs/Event"
+
+# Maximum log file size (in bytes)
+max_log_size: 20971520  # 20MB
+
+# Heartbeat timeout (in nseconds: *m*s)
+heartbeat_timeout: 180s
+
+# Log retention days
+log_retention_days: 180
+
+# Allow connections from all IPs
+allowed_all_ip: false
+
+# Allowed IP addresses
+allowed_ips:
+    - 10.10.10.105
+
+# Allowed IP ranges
+allowed_ip_ranges:
+    - 192.168.10.1/24
+    - 10.10.10.1/24
+    - 192.168.31.1/24
