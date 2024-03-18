@@ -1,4 +1,5 @@
-evevt_log   日志接收小工具服务端。支持windows、Linux   
+evevt_log   日志接收小工具服务端。支持windows、Linux部署
+工具只做转存，不做审计！接收到的日志是什么样的，就什么样转存！！   
 
 
 
@@ -85,6 +86,7 @@ allowed_ip_ranges	  ->>  	 允许的ip段   需要allowed_all_ip设置为false  
 
 日志存放路径，在当前程序Logs目录下
 其中：
+
 1.Event目录下存放接收到的日志
 
 2.Run目录下存放的是运行日志
